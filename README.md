@@ -1,6 +1,8 @@
 OpenSSL
 ================
 
+[![Build Status](https://travis-ci.org/PeterMosmans/openssl.svg?branch=travis)](https://travis-ci.org/PeterMosmans/openssl)
+
 This is a fork of the official OpenSSL github repository at https://github.com/openssl/openssl.git
 
 You're looking at the 1.0.2-chacha branch, which aligns with the OpenSSL_1_0_2-stable branch (which currently is at beta4 stage).
