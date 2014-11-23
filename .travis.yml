@@ -1,0 +1,8 @@
+language: c
+compiler: gcc
+before_install:
+- sudo apt-get install Perl
+branches:
+  only:
+     - travis
+script: ./config && make depend && make && make test
