@@ -1,8 +1,6 @@
 language: c
 compiler: gcc
-before_git install:
-- sudo apt-get install perl
 branches:
   only:
      - travis
-script: ./config && make depend && make && make test
+script: ./Configure linux-x86_64 no-shared zlib enable-gost enable-ec_nistp_64_gcc_128 enable-idea enable-md2 enable-rc5 enable-rfc3779 enable-ssl2 experimental-jpake 1>/dev/null && make depend 1>/dev/null && make 1>/dev/null && make test 1>/dev/null 
