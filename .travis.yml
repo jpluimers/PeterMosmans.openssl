@@ -1,7 +1,7 @@
 language: c
 compiler: gcc
-before_install:
-- sudo apt-get install Perl
+before_git install:
+- sudo apt-get install perl
 branches:
   only:
      - travis
